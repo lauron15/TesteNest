@@ -1,0 +1,33 @@
+GET http://localhost:3000/developers
+
+## GET BY ID
+GET http://localhost:3000/developers/3
+
+##
+POST  http://localhost:3000/developers
+Content-Type: application/json
+{
+    "name": "Lauro Dev",
+    "email": "lauro.15@lauro.com",
+    "dateOfBirth": "1994-15-02"
+    
+}
+
+##
+PATCH   http://localhost:3000/developers/3
+
+Content-Type: application/json
+{
+    "name": "Lauro Dev",
+    "email": "lsasasas",
+    "dateOfBirth": "1994-15-02"
+    
+}
+
+##
+DELETE http://localhost:3000/developers/3
+ 
+## Ctrl + Alt + R para testar o sendrequest
+
+## O meu está passando mesmo com as validações e o envio errado, o que fazer?
+
